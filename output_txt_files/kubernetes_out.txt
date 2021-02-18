@@ -1,1 +1,15 @@
 <paste log output from Kubernetes-mediated prediction, here>
+~/udacity-cloud-devops-project-microsvc (master ✘)✹ ᐅ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "my-udacity-pod" already exists
+NAME                   READY   STATUS    RESTARTS   AGE
+my-udacity-pod         1/1     Running   0          7m9s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
+~/udacity-cloud-devops-project-microsvc (master ✘)✹ ᐅ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
