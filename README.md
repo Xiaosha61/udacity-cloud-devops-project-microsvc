@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/Xiaosha61/udacity-cloud-devops-project-microsvc.svg?style=svg)](https://circleci.com/gh/Xiaosha61/udacity-cloud-devops-project-microsvc)
 
 ## Project Overview
 
@@ -40,3 +40,9 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Files Navigator
+* `Makefile`: a short hand way to run commands in the environment
+* `run_docker.sh`: a set of instructions to build Dockerfile to a tagged image and run a docker container.
+* `upload_docker.sh`: a script file to tag a local docker image and push it to docker hub.
+* `run_kubernetes:sh`: run a kubernetes pod that has a container running inside, the container will run the python application.
